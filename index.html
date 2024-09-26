@@ -5,15 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Just-Travel Agency</title>
+  <link rel="stylesheet" href="./styles/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8d8255153f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+  <header class="">
+    <nav class="navbar navbar-expand-lg  custom-bg">
+      <div class="container-fluid custom-color">
+        <a class="navbar-brand custom-color" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,7 +26,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -32,17 +34,15 @@
                 Dropdown
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#service">Services</a></li>
+                <li><a class="dropdown-item" href="#">More</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+          
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -58,13 +58,13 @@
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMmovSgrqzK7CtsB9ZVgC6l7rBeI7QuAU6A&s" class="d-block w-100" alt="..." height="500px">
+            <img src="https://www.monumentvalleytribaltours.com/uploads/1/2/2/0/122061697/john-ford-point_orig.jpg" class="d-block w-100" alt="..." height="500px">
           </div>
           <div class="carousel-item">
             <img src="https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg" class="d-block w-100" alt="..." height="500px">
           </div>
           <div class="carousel-item">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMmovSgrqzK7CtsB9ZVgC6l7rBeI7QuAU6A&s" class="d-block w-100" alt="..." height="500px">
+            <img src="https://www.monumentvalleytribaltours.com/uploads/1/2/2/0/122061697/john-ford-point_orig.jpg" class="d-block w-100" alt="..." height="500px">
           </div>
         </div>
 
@@ -79,15 +79,16 @@
       </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="container">
 
-      <div class="row featurette pt-5">
+      <div class="container row featurette pt-5">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1 pt-5 ps-2">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some br exciting prose here.</p>
+          <h2 class="featurette-heading fw-normal lh-1 pt-5 ps-2">What does Just Travel do?. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+          <p class="lead">
+            Travelstart is your one-stop online travel shop. Forget trawling the web for the latest flight specials. We bring you the best international and domestic flights from all your favourite airlines. Book your hotel stay at properties on every continent. and select car hire from top car rental companies. .</p>
         </div>
         <div class="col-md-5 ">
-         <img class="me-5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMmovSgrqzK7CtsB9ZVgC6l7rBeI7QuAU6A&s" alt="" height="90%">
+         <img class="me-5" src="https://cdn.travelwings.com/assets/images/Search-Best-Flights-Across-the-Globe-1920x500_NGN.jpg" alt="" height="80%" width="100%">
 
          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="00" height="350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
         </div>
@@ -101,144 +102,174 @@
       <div class="container py-3">
         
       
-        
           <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
-                  <h4 class="my-0 fw-normal">Free</h4>
+                  <h4 class="my-0 fw-normal">Ultra All inclusive Abu Dhabi</h4>
                 </div>
                 <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <h1 class="card-title pricing-card-title">£2779.00</h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                    <li>10 users included</li>
-                    <li>2 GB of storage</li>
-                    <li>Email support</li>
-                    <li>Help center access</li>
+                    <li>United Arab Emirates, Abu Dhabi</li>
+                    <li>rixos premium sasdiyat island</li>
+                    <li>5 Nights</li>
+                    <li>All inclusive</li>
+                    <li>Travel Date | 4th November 2024</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Veiw Details</button>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
-                  <h4 class="my-0 fw-normal">Pro</h4>
+                  <h4 class="my-0 fw-normal">Windermere Cruise Break</h4>
                 </div>
                 <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <h1 class="card-title pricing-card-title">£189.00</h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                    <li>20 users included</li>
-                    <li>10 GB of storage</li>
-                    <li>Priority email support</li>
-                    <li>Help center access</li>
+                    <li>UK, Lake District</li>
+                    <li>Castle Green Hotel</li>
+                    <li>2 Nights</li>
+                    <li>Varied Meal Plan</li>
+                    <li>Travel Date | 25th September 2024</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">View Details</button>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                  <h4 class="my-0 fw-normal">Enterprise</h4>
+                <div class="card-header py-3 ">
+                  <h4 class="my-0 fw-normal">Villa With Views-West Corsica</h4>
                 </div>
                 <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <h1 class="card-title pricing-card-title">£749.00</h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                    <li>30 users included</li>
-                    <li>15 GB of storage</li>
-                    <li>Phone and email support</li>
-                    <li>Help center access</li>
+                    <li>Corsica, The Valinco</li>
+                    <li>villa kalliste</li>
+                    <li>7 Nights</li>
+                    <li>Self catering</li>
+                    <li>Travel Date | 6th October 2024 </li>
+
+                   
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">View Deatils </button>
                 </div>
               </div>
             </div>
           </div>
       
-          <h2 class="display-6 text-center mb-4">Compare plans</h2>
-      
-          <div class="table-responsive">
-            <table class="table text-center">
-              <thead>
-                <tr>
-                  <th style="width: 34%;"></th>
-                  <th style="width: 22%;">Free</th>
-                  <th style="width: 22%;">Pro</th>
-                  <th style="width: 22%;">Enterprise</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row" class="text-start">Public</th>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Private</th>
-                  <td></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-              </tbody>
-      
-              <tbody>
-                <tr>
-                  <th scope="row" class="text-start">Permissions</th>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Sharing</th>
-                  <td></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Unlimited members</th>
-                  <td></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Extra security</th>
-                  <td></td>
-                  <td></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-              </tbody>
-            </table>
+
           </div>
-       
-      
-       
+    
       </div>
 
     </section>
 
 
     <section id="contact">
+          
+      <div class="container">
+        <h2 class="text-center"><b>Get In Touch With Us</b></h2>
+       <div class="">
+        
+       <div class="d-flex flex-wrap justify-content-around pt-5">
+      <div>
+        <p>
+          <i class="fa-solid fa-message">  </i> <b>Chat With Us</b>
+        </p>
+        <p>You can now chat to our agents on WhatsApp. <br> Click on the WhatsApp icon or add +23460721917 to your contact list.</p>
+        <p>This is a chat only service. <br> WhatsApp call is unavailable and will not work</p>
+        <h6><b>Our agents are available:</b></h6>
+        <ul>
+          <li>Monday - Friday: 8am - 12am</li>
+          <li>Weekends & Public Holidays: 9am - 12am</li>
+        </ul>
+      </div>
 
+        <div class="pt-2">
+          <h5><i class="fa-solid fa-phone"></i>     <b>You can now reach us on Call via:</b></h5>
+          <p>Phone number: +2348182447193</p>
+          <p>Phone number: +2347015242430</p>
+  
+          <h6><b>Our agents are available:</b></h6>
+          <ul>
+            <li>Monday - Friday: 7am -7am</li>
+            <li>Weekends & Public Holidays: 9am - 5am</li>
+          </ul>
+         </div>
 
+       </div>
+
+     
+       <div class="  pt-4">
+
+        <div class="text-center me-5">
+          <h4><b>Visit Us at Our Travel Experience Centers</b></h4>
+          <p><i class="fa-solid fa-house-chimney-user"></i><b>Town Office Physical and Postal Address</b></p>
+          <p>47 Allen Avenue, Studio 24 building Allen, Ikeja Lagos, Nigeria</p>
+       
+  
+          <h5><b>Opening Hours:</b></h5>
+            <p>Monday - Friday: 7am -7am</p>
+            <p>Weekends & Public Holidays: <b>CLOSED</b></p>
+     
+  
       
-    </section>
+         </div>
+  
+  
+          <div class="row text-center pt-5"> 
+  
+            <h4><b>Send us your query:</b></h4>
+            <p>Drop your query in this contact form and we’ll be in touch with you shortly.</p>
+  
+            <div class="row ">
+              <div class="col-6">           
+                <input type="text" class="form-control " placeholder="First Name" aria-label="First name">
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last name">
+              </div> 
+              <div class="col-6 pt-3">
+                <input type="email" class="form-control" placeholder="Email" aria-label="email">
+              </div>
+              <div class="col-6 pt-3 ">
+                <input type="text" class="form-control" placeholder="Booking Number" aria-label="booking number">
+            </div>
+    
+            </div>
+           
+          <div class="col-12">
+            <button class="btn btn-primary m-5" type="submit">Submit Enquiry</button>
+            
+          </div>
+         </div>
 
+       </div>
+    
+
+     
+      </div>
+
+    </section>
+    
 
   </main>
 
 
 
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <div class="container footer-bg">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2  border-top border-top container">
       <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
   
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0me-md-auto  link-body-emphasis text-decoration-none">
+        <svg class="bi me-2"  height="32"><use xlink:href="#bootstrap"></use></svg>
       </a>
   
-      <ul class="nav col-md-4 justify-content-end">
+      <ul class="nav col-md-4 ">
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
